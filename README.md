@@ -1,5 +1,5 @@
 #TUNGSTEN REPLICATOR
-Copyright (C) 2015 VMware, Inc. -- Updated 1 February 2016
+Copyright (C) 2015 VMware, Inc. -- Updated 8 December 2016
 
 ##1 INTRODUCTION
 
@@ -12,6 +12,8 @@ and/or row-based replication of data. This enables data to be exchanged between 
 versions. During replication, information can be filtered and modified, and deployment can be between on-premise or 
 cloud-based databases. For performance, Tungsten Replicator includes support for parallel replication, and advanced 
 topologies such as fan-in and multi-master, and can be used efficiently in cross-site deployments.
+
+This repo tracks the Tungsten Replicator 5.0 series. 
 
 ## 2 LICENSING
 

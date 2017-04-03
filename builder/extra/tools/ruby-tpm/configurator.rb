@@ -19,6 +19,7 @@
 # System libraries.
 require 'system_require'
 
+system_require 'rubygems'
 system_require 'singleton'
 system_require 'optparse'
 system_require 'ostruct'

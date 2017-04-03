@@ -1,6 +1,7 @@
 require "open4"
 require "resolv"
 require "ipparse"
+require "rubygems"
 
 class TungstenUtil
   def initialize()

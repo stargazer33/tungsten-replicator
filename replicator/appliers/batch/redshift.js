@@ -31,12 +31,11 @@ var filter;
 /** Reads AWS configuration file into a string. */
 function readAWSConfigFile()
 {
-  var awsConfigFileName = "s3-config-" + serviceName + ".json";
-  var awsConfigFile = "../../../../share/" + awsConfigFileName;
+  var awsConfigFile = "/opt/continuent/share/s3-config-" + serviceName + ".json";
   var f = new java.io.File(awsConfigFile);
   if (!f.isFile())
   {
-    message = "AWS S3 configuration file (share/" + awsConfigFileName
+    message = "AWS S3 configuration file (" + awsConfigFileName
     ") does not exist, "
         + "create one by using a sample (tungsten/cluster-home/samples/conf/s3-config.json)";
     throw new com.continuent.tungsten.replicator.ReplicatorException(message);
